@@ -1,0 +1,23 @@
+{
+  "name": "another/tabgen",
+  "require": {
+    "php": ">=8.1"
+  },
+  "description": "HTML tables markup generator",
+  "keywords": ["HTML","generator","div","grid","table","container"],
+  "homepage": "https://github.com/another-ghu/TabGen",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Starostin Anton",
+      "email": "another.mfj@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "another\\TabGen\\":"src"
+    }
+  }
+}
